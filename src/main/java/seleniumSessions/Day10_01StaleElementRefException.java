@@ -10,8 +10,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Day10_01StaleElementRefException {
 
 	// Every time we refresh the page, DOM gets refreshed, so the WebElements that
-	// are created before refreshing the web page gets expired, and we get
+	// are created before refreshing the web page gets expired (webelement id gets expired), and we get
 	// StaleElementReferenceException
+	//It happens in case of back and forward the page as well, as DOM gets refreshed.
 
 	static WebDriver driver;
 

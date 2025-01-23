@@ -100,7 +100,7 @@ public class Day04_03BrowserUtil {
 	}
 
 	public boolean isInfoExistInPageSource(String info) {
-		if (getPageSource().equals(info)) {
+		if (getPageSource().contains(info)) {
 			return true;
 		}
 		return false;

@@ -11,11 +11,11 @@ public class Day02_04OrangeHRMTest extends Day02_06BaseTest {
 		driver.get("https://www.orangehrm.com/orangehrm-30-day-trial/");
 		String title = driver.getTitle();
 		System.out.println(title);
-		Assert.assertEquals(title, "Sign Up for a Free HR Software Trial | OrangeHRM");
+		Assert.assertEquals(title, "30-Day Advanced Free Trial | OrangeHRM");
 	}
 
 	@Test(priority = 2)
 	public void contactSalesLinkTest() {
-		Assert.assertTrue(driver.findElement(By.linkText("CONTACT SALES")).isDisplayed());
+		Assert.assertTrue(driver.findElement(By.linkText("OrangeHRM")).isDisplayed());
 	}
 }

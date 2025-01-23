@@ -27,8 +27,8 @@ public class Day11_01CustomXpath {
 		//valid tags:
 			//input
 			//a : it will find all the links on a page
-		
 			//input[@id] : find all the input where id is available
+		
 		//text():
 			//htmltag[text()='value']
 			//a[text()='Login']   //It will find all the links having text as Login

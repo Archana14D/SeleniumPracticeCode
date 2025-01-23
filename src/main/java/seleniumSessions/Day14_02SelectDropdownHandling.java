@@ -23,7 +23,7 @@ public class Day14_02SelectDropdownHandling {
 		By country = By.id("Form_submitForm_Country");
 		By state = By.id("Form_submitForm_State");
 
-		//doSelectByIndex(country, 5);
+		doSelectByIndex(country, 5);
 		doSelectByVisibleText(country, "India");
 		Thread.sleep(2000);
 		doSelectByVisibleText(state, "Goa");

@@ -50,7 +50,7 @@ public class Day23_03ExplicitWaitConcept {
 		WebElement logon_ele = wait.until(ExpectedConditions.presenceOfElementLocated(loginBtn));
 		logon_ele.click();
 
-//		Here, we are using explicit wait only for 2 webElements
+//		Here, we are usin g explicit wait only for 2 webElements
 // If element is not found, we will get TimeoutException and NoSuchElementException	
 
 //		doSendKeysWithWait(emailId, 5, "tom@gmail.com");
@@ -58,7 +58,7 @@ public class Day23_03ExplicitWaitConcept {
 //		doClick(loginBtn);
 		
 		//visibility of the element: 
-//		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+//		WebDriverWa it wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 //		WebElement email_ele = wait.until(ExpectedConditions.visibilityOfElementLocated(emailId));
 //		email_ele.sendKeys("test@gmail.com");
 		

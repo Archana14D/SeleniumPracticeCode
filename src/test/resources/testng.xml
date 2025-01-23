@@ -5,19 +5,19 @@
 
 	<test name="Google Test">
 		<classes>
-			<class name="mytests.Day02_04GoogleTest" />
+			<class name="myTests.Day02_04GoogleTest" />
 		</classes>
 	</test>
 	
 	<test name="OpenCart Test">
 		<classes>
-			<class name="mytests.Day02_05OpenCartTest" />
+			<class name="myTests.Day02_05OpenCartTest" />
 		</classes>
 	</test>
 	
 	<test name="Orange HRM Test">
 		<classes>
-			<class name="mytests.Day02_06OrangeHRMTest" />
+			<class name="myTests.Day02_04OrangeHRMTest" />
 		</classes>
 	</test>
 

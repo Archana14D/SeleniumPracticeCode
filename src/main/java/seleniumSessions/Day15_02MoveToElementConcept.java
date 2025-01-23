@@ -23,9 +23,9 @@ public class Day15_02MoveToElementConcept {
 //
 //		Actions act = new Actions(driver);
 //		act.moveToElement(parentMenu).perform();
-//		 If we do not write .build() and .perform() in any act related statements, we
-//		 will get NoSuchElementException. This is because, the action is not get
-//		 performed and hence the elements in further script are not found or available
+//		 	If we do not write .build() and .perform() in any act related statements, we
+//		 	will get NoSuchElementException. This is because, the action is not get
+//			 performed and hence the elements in further script are not found or available
 //
 //		Thread.sleep(2000);
 //		driver.findElement(By.linkText("COURSES")).click();

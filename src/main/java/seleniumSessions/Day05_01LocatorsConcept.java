@@ -39,8 +39,7 @@ public class Day05_01LocatorsConcept {
 //		password.sendKeys("test@123");
 //		
 		// 3rd: By locator: It is Object Repository : In this approach, we are creating
-		// By locators
-		// for all webElements, but hitting to server using findElement() only when it
+		// By locators for all webElements, but hitting to server using findElement() only when it
 		// is required.
 
 		// creating a By element

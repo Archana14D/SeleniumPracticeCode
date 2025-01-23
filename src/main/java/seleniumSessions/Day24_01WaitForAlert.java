@@ -1,4 +1,4 @@
-package seleniumSessions;
+ package seleniumSessions;
 
 import java.net.MalformedURLException;
 import java.time.Duration;

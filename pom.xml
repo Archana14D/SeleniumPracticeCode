@@ -21,22 +21,21 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.2.2</version>
+			<version>4.27.0</version>
 		</dependency>
-
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>5.2.0</version>
+			<version>5.9.2</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>6.14.3</version>
+			<version>7.10.0</version>
 			<!-- <scope>test</scope>  Here, scope=test means, i can use testNG only with src/test/java. If we use scope = compile, then we can use this testNG along with src/main/java-->
 		</dependency>
-
 
 	</dependencies>
 

@@ -26,8 +26,7 @@ public class Day18_03RelativeLocators {
 		
 		String leftRank = driver.findElement(with(By.tagName("p")).toLeftOf(baseEle)).getText();
 		System.out.println(leftRank);
-		
-		
+			
 		String belowCity = driver.findElement(with(By.tagName("p")).below(baseEle)).getText();
 		System.out.println(belowCity);
 		
@@ -39,11 +38,12 @@ public class Day18_03RelativeLocators {
 		
 		List<WebElement> belowEles = driver.findElements(with(By.tagName("p")).below(baseEle));
 		System.out.println(belowEles.size());
+			
 		for(WebElement e : belowEles) {
 			System.out.println(e.getText());
 		}
 	
-		//try to avoid using relative locators with finElements(), because it gives all elements
+		//try to avoid using relative locators with findElements(), because it gives all elements
 		
 	
 	}
